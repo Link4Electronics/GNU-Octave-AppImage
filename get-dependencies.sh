@@ -7,7 +7,6 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    gnuplot       \
     kvantum       \
     lxqt-qtplugin \
     octave        \
