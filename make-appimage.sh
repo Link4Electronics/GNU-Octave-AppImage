@@ -15,9 +15,10 @@ export QT_DIR=qt6
 
 # Deploy dependencies
 quick-sharun /usr/bin/mkoctfile \
-usr/bin/octave \
-usr/bin/octave-cli \
-usr/bin/octave-config /usr/share/octave
+/usr/bin/octave \
+/usr/bin/octave-cli \
+/usr/bin/octave-config \
+/usr/share/octave
 
 # Additional changes can be done in between here
 
