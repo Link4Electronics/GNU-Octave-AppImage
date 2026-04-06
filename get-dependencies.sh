@@ -10,7 +10,7 @@ pacman -Syu --noconfirm \
     gnuplot     \
     octave      \
     portaudio   \
-    textinfo    \
+    texinfo     \
     texlive-bin
 
 echo "Installing debloated packages..."
