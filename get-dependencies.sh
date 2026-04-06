@@ -6,7 +6,12 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-# pacman -Syu --noconfirm PACKAGESHERE
+pacman -Syu --noconfirm \
+    gnuplot     \
+    octave      \
+    portaudio   \
+    textinfo    \
+    texlive-bin
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
