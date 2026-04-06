@@ -11,7 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/256x256/apps/octave.png
 export DESKTOP=/usr/share/applications/org.octave.Octave.desktop
 export DEPLOY_QT=1
-
+export QT_DIR=qt6
 
 # Deploy dependencies
 quick-sharun /usr/bin/mkoctfile \
