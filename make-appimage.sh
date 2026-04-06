@@ -13,8 +13,7 @@ export DEPLOY_QT=1
 export QT_DIR=qt6
 
 # Deploy dependencies
-quick-sharun /usr/lib/octave /usr/share/octave \
-/usr/bin/gnuplo* /usr/share/gnuplot
+quick-sharun /usr/lib/octave /usr/share/octave
 
 # Additional changes can be done in between here
 
