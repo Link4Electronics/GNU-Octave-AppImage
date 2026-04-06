@@ -7,9 +7,12 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    octave      \
-    portaudio   \
-    texinfo     \
+    kvantum       \
+    lxqt-qtplugin \
+    octave        \
+    portaudio     \
+    qt6ct         \
+    texinfo       \
     texlive-bin
 
 echo "Installing debloated packages..."
